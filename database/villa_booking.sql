@@ -39,7 +39,7 @@ CREATE TABLE admin (
 --
 
 INSERT INTO `admin` (`id`, `name`, `password`) VALUES
-(1, 'admin', 'admin123'),
+(1, 'admin', 'admin123');
 -- --------------------------------------------------------
 
 --
@@ -715,7 +715,6 @@ INSERT INTO `villa_reviews` (`id`, `user_id`, `property_id`, `rating`, `review`,
 -- Indexes for table `admin`
 --
 ALTER TABLE `admin`
-  ADD PRIMARY KEY (`id`),
   ADD UNIQUE KEY `name` (`name`);
 
 --
